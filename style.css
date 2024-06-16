@@ -1,0 +1,52 @@
+
+body{
+    background-image: url(./paper-style-dynamic-lines-background_23-2149008629.avif);no mask-repeat: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div.form{
+    background: linear-gradient(70deg, rgb(255, 30, 158),white,purple);
+    width: 12cm;
+    padding: 10px 30px;
+    border-radius:100px;
+}
+label{
+    width: 140px;
+    display:inline-block;
+    margin: 0.2cm;
+    font-size:20px;
+    font-weight:bolder;
+}
+input{
+  padding: 4px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #f9f9f9;
+  width: 7cm;
+}
+input#submit{
+    margin-top: 7px;
+    color: white;
+    font-weight: bold;
+    padding: 4px;
+    background-color: dodgerblue;
+
+}
+input#submit:hover{
+    background-color: rgb(14, 215, 174);
+    color: #f9f9f9;
+}
+h2{
+ text-align: center;
+ text-decoration: underline;
+ color: blue;
+ font-size:24px;   
+}
+h2:hover{
+    background-color: white;
+    color: red;
+}
+
